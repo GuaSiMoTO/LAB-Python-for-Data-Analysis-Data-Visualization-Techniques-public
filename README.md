@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Data Visualization Techniques lab. In this session, you will practice your knowledge of pandas, Matplotlib, and Seaborn. Data visualization is not just about making attractive graphics—it's about telling stories and making insights and data visible and actionable. This lab will equip you with the skills to create compelling visual representations of datasets.
+Welcome to the Data Visualization Techniques lab! In this session, you will enhance your proficiency with pandas, Matplotlib, and Seaborn. Effective data visualization is not just about creating attractive charts; it's about narrating the story behind the data and uncovering actionable insights. This lab will empower you with the skills to craft compelling visual representations of datasets.
 
 ## Initial Setup
 
@@ -13,7 +13,7 @@ Start by forking the provided GitHub repository to your account and then clone i
 
 ## Scenario
 
-You are working as a junior data analyst at a retail company. Your manager wants to understand the sales trends for different products throughout the year to aid in upcoming marketing strategies. You've been tasked with visualizing this data to identify seasonal trends, product popularity, and potential areas for sales campaigns.
+Imagine you are a junior data analyst at a retail company. Your manager has asked you to analyze the sales trends for various products over the year to inform upcoming marketing strategies. Your task is to visualize this data, identifying seasonal trends, product popularity, and potential opportunities for sales campaigns.
 
 ## Iteration 1: Plotting with Matplotlib
 
