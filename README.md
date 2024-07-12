@@ -1,5 +1,7 @@
 # LAB: Python for Data Analysis - Data Visualization Techniques
 
+![Excel Image](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
+
 ## Introduction
 
 Welcome to the Data Visualization Techniques lab. In this session, you will practice your knowledge of pandas, Matplotlib, and Seaborn. Data visualization is not just about making attractive graphics—it's about telling stories and making insights and data visible and actionable. This lab will equip you with the skills to create compelling visual representations of datasets.
@@ -14,6 +16,8 @@ Start by forking the provided GitHub repository to your account and then clone i
 You are working as a junior data analyst at a retail company. Your manager wants to understand the sales trends for different products throughout the year to aid in upcoming marketing strategies. You've been tasked with visualizing this data to identify seasonal trends, product popularity, and potential areas for sales campaigns.
 
 ## Iteration 1: Plotting with Matplotlib
+
+In this iteration, you will learn to use Matplotlib, a data visualization library in Python, to create basic but informative charts. We will start by loading and understanding the dataset structure, followed by creating various types of charts to visualize monthly sales, sales trends over time, and the relationship between sales and discounts.
 
 1. Load the dataset (focus on sales data).
    - **Instruction:** Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
@@ -38,6 +42,8 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ## Iteration 2: Plotting with Seaborn
 
+In this iteration, you will leverage Seaborn, a statistical data visualization library in Python, to create more advanced plots. We will create a correlation heatmap, pair plots to explore relationships between variables, histograms to compare sales distributions, and bar plots for regional sales analysis.
+
 #### Correlation Heatmap
 
 1. Generate a heatmap to visualize sales data correlations.
@@ -60,7 +66,9 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ## Iteration 3: Customizing Plots for Insights
 
-####  Enhance Visualizations
+In this iteration, you will learn how to enhance your visualizations by adding annotations, using color maps, and adjusting axes properties to improve clarity and visual appeal. You will also experiment with Seaborn’s styles and color palettes to prepare presentation-ready figures.
+
+#### Enhance Visualizations
 
 1. Enhance your plots from previous iterations by adding annotations, using color maps, and adjusting axes properties for clarity and visual appeal.
    - **Instruction:** Add annotations to bar charts and heatmaps to highlight important points. Adjust axis limits and experiment with different color maps.
@@ -71,6 +79,8 @@ You are working as a junior data analyst at a retail company. Your manager wants
    - **Instruction:** Apply different Seaborn styles and color palettes to the created plots to improve visual presentation.
 
 ## Iteration 4: Comprehensive Business Insights
+
+In this final iteration, you will synthesize your visualizations to gain comprehensive business insights. You will analyze seasonal sales trends, compare product category performance, evaluate the impact of promotions, and visualize sales distribution and variability over time. Finally, you will summarize your findings and prepare a presentation for stakeholders.
 
 #### Seasonal Sales Trends
 
@@ -104,17 +114,17 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ## Bonus Challenge
 
-#### Interactive Visualizations
+### Interactive Visualizations
 
 1. Integrate interactive elements into your visualizations using Plotly.
    - **Instruction:** Convert one of the existing plots into an interactive visualization using Plotly.
 
-#### Dashboard Layout
+### Dashboard Layout
 
 2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
    - **Instruction:** Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
 
-#### Advanced Seaborn Visualizations
+### Advanced Seaborn Visualizations
 
 - **Violin Plot:** Investigate and create a violin plot to visualize the distribution and density of sales by product category. Refer to the Seaborn documentation for guidance.
 - **Box Plot:** Explore and create a box plot to compare sales distributions between different product categories. Use the Seaborn documentation as a resource.
@@ -133,5 +143,6 @@ The dataset provided for this lab is available at the following link: [Retail Sa
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
 - [Python Graph Gallery](https://www.python-graph-gallery.com/) for inspiration and code snippets.
+- [Plotly Documentation]([https://matplotlib.org/stable/contents.html](https://plotly.com/python/))
 
-This lab is designed to simulate a real-world scenario where your visualization skills can lead to actionable business insights. Happy plotting!
+![happy_coding](https://user-images.githubusercontent.com/970858/63899010-c23fc480-c9ea-11e9-84a2-542907e42362.png)
