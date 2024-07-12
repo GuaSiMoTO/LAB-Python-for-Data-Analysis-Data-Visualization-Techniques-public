@@ -13,14 +13,12 @@ Start by forking the provided GitHub repository to your account and then clone i
 
 You are working as a junior data analyst at a retail company. Your manager wants to understand the sales trends for different products throughout the year to aid in upcoming marketing strategies. You've been tasked with visualizing this data to identify seasonal trends, product popularity, and potential areas for sales campaigns.
 
-## Iteration 1: Getting Started with Matplotlib
-
-### Task 1: Load and Inspect the Data
+## Iteration 1: Plotting with Matplotlib
 
 1. Load the dataset (focus on sales data).
    - **Instruction:** Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
 
-### Task 2: Visualize Monthly Sales
+#### Visualize Monthly Sales
 
 2. Use Matplotlib to plot a bar chart showing sales per month.
    - **Instruction:** Create a bar chart where the X-axis represents the months of the year and the Y-axis represents the total sales for each month.
@@ -28,95 +26,95 @@ You are working as a junior data analyst at a retail company. Your manager wants
 3. Customize your plot with labels and a title to improve readability.
    - **Instruction:** Add a title, axis labels, and customize the colors of the bars.
 
-### Task 3: Analyze Sales Trends
+#### Analyze Sales Trends
 
 4. Create a line plot to show the sales trend over time.
    - **Instruction:** Create a line plot with total sales per month to identify trends over the year.
 
-### Task 4: Explore Sales and Discounts Relationship
+#### Explore Sales and Discounts Relationship
 
 5. Create a scatter plot to analyze the relationship between sales and discounts.
    - **Instruction:** Create a scatter plot where the X-axis represents discounts and the Y-axis represents sales.
 
-## Iteration 2: Advanced Plotting with Seaborn
+## Iteration 2: Plotting with Seaborn
 
-### Task 1: Correlation Heatmap
+#### Correlation Heatmap
 
 1. Generate a heatmap to visualize sales data correlations.
    - **Instruction:** Create a heatmap showing correlations between different numerical variables in the dataset.
 
-### Task 2: Product Category Analysis
+#### Product Category Analysis
 
 2. Create a pair plot to explore relationships between continuous variables in different product categories.
    - **Instruction:** Generate a pair plot including variables such as sales, discounts, and other relevant factors to analyze possible relationships within product categories.
 
-### Task 3: Sales Distribution by Category
+#### Sales Distribution by Category
 
 3. Create histograms to compare sales distributions between different product categories.
    - **Instruction:** Create histograms comparing sales across different product categories.
 
-### Task 4: Regional Sales Analysis
+#### Regional Sales Analysis
 
 4. Create a bar plot to analyze sales in different regions.
    - **Instruction:** Create a bar plot showing sales across different geographical regions.
 
 ## Iteration 3: Customizing Plots for Insights
 
-### Task 1: Enhance Visualizations
+####  Enhance Visualizations
 
 1. Enhance your plots from previous iterations by adding annotations, using color maps, and adjusting axes properties for clarity and visual appeal.
    - **Instruction:** Add annotations to bar charts and heatmaps to highlight important points. Adjust axis limits and experiment with different color maps.
 
-### Task 2: Presentation-Ready Figures
+#### Presentation-Ready Figures
 
 2. Experiment with Seaborn’s styles and color palettes to prepare presentation-ready figures.
    - **Instruction:** Apply different Seaborn styles and color palettes to the created plots to improve visual presentation.
 
 ## Iteration 4: Comprehensive Business Insights
 
-### Task 1: Seasonal Sales Trends
+#### Seasonal Sales Trends
 
 1. Create a line chart to show seasonal sales trends.
    - **Instruction:** Analyze how sales fluctuate over the months and identify any seasonal patterns.
 
-### Task 2: Product Category Performance
+#### Product Category Performance
 
 2. Create a bar chart to compare the performance of different product categories over time.
    - **Instruction:** Evaluate which product categories perform best during different times of the year.
 
-### Task 3: Impact of Promotions
+#### Impact of Promotions
 
 3. Create a scatter plot to analyze the impact of promotions on sales.
    - **Instruction:** Determine how promotional activities affect sales numbers.
 
-### Task 4: Sales Distribution Over Time
+#### Sales Distribution Over Time
 
 4. Create a histogram to show the distribution of sales over time.
    - **Instruction:** Visualize how sales are distributed across months to see overall sales performance.
 
-### Task 5: Variability in Sales
+#### Variability in Sales
 
 5. Create a pair plot to visualize the relationships and variability of sales within each product category.
    - **Instruction:** Show the relationships and dispersion of sales by product category to understand sales variability.
 
-### Task 6: Summarize Findings
+#### Summarize Findings
 
 6. Summarize your findings with visual aids and present them as if to a stakeholder.
    - **Instruction:** Prepare a presentation with the created visualizations, including a narrative explaining the most important findings.
 
 ## Bonus Challenge
 
-### Task 1: Interactive Visualizations
+#### Interactive Visualizations
 
 1. Integrate interactive elements into your visualizations using Plotly.
    - **Instruction:** Convert one of the existing plots into an interactive visualization using Plotly.
 
-### Task 2: Dashboard Layout
+#### Dashboard Layout
 
 2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
    - **Instruction:** Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
 
-### Task 3: Advanced Seaborn Visualizations
+#### Advanced Seaborn Visualizations
 
 - **Violin Plot:** Investigate and create a violin plot to visualize the distribution and density of sales by product category. Refer to the Seaborn documentation for guidance.
 - **Box Plot:** Explore and create a box plot to compare sales distributions between different product categories. Use the Seaborn documentation as a resource.
