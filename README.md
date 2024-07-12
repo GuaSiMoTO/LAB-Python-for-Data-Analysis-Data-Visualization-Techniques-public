@@ -108,8 +108,8 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ### Task 1: Interactive Visualizations
 
-1. Integrate interactive elements into your visualizations using Plotly or Bokeh.
-   - **Instruction:** Convert one of the existing plots into an interactive visualization using Plotly or Bokeh.
+1. Integrate interactive elements into your visualizations using Plotly.
+   - **Instruction:** Convert one of the existing plots into an interactive visualization using Plotly.
 
 ### Task 2: Dashboard Layout
 
