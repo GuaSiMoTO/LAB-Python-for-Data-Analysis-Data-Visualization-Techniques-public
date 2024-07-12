@@ -50,20 +50,15 @@ You are working as a junior data analyst at a retail company. Your manager wants
 2. Create a pair plot to explore relationships between continuous variables in different product categories.
    - **Instruction:** Generate a pair plot including variables such as sales, discounts, and other relevant factors to analyze possible relationships within product categories.
 
-### Task 3: Distribution Analysis by Category
+### Task 3: Sales Distribution by Category
 
-3. Create a box plot to compare sales distributions between different product categories.
-   - **Instruction:** Create a box plot comparing sales across different product categories.
+3. Create histograms to compare sales distributions between different product categories.
+   - **Instruction:** Create histograms comparing sales across different product categories.
 
-### Task 4: Density and Distribution Visualization
+### Task 4: Regional Sales Analysis
 
-4. Create a violin plot to visualize the distribution and density of sales by product category.
-   - **Instruction:** Create a violin plot showing the distribution and density of sales by product category.
-
-### Task 5: Regional Sales Analysis
-
-5. Create a cat plot to analyze sales in different regions.
-   - **Instruction:** Create a cat plot showing sales across different geographical regions.
+4. Create a bar plot to analyze sales in different regions.
+   - **Instruction:** Create a bar plot showing sales across different geographical regions.
 
 ## Iteration 3: Customizing Plots for Insights
 
@@ -86,7 +81,7 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ### Task 2: Product Category Performance
 
-2. Create a stacked bar chart to compare the performance of different product categories over time.
+2. Create a bar chart to compare the performance of different product categories over time.
    - **Instruction:** Evaluate which product categories perform best during different times of the year.
 
 ### Task 3: Impact of Promotions
@@ -96,13 +91,13 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 ### Task 4: Sales Distribution Over Time
 
-4. Create an area chart to show the distribution of sales over time.
+4. Create a histogram to show the distribution of sales over time.
    - **Instruction:** Visualize how sales are distributed across months to see overall sales performance.
 
 ### Task 5: Variability in Sales
 
-5. Create a strip plot to visualize the variability of sales within each product category.
-   - **Instruction:** Show the dispersion of sales by product category to understand sales variability.
+5. Create a pair plot to visualize the relationships and variability of sales within each product category.
+   - **Instruction:** Show the relationships and dispersion of sales by product category to understand sales variability.
 
 ### Task 6: Summarize Findings
 
@@ -120,6 +115,12 @@ You are working as a junior data analyst at a retail company. Your manager wants
 
 2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
    - **Instruction:** Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
+
+### Task 3: Advanced Seaborn Visualizations
+
+- **Violin Plot:** Investigate and create a violin plot to visualize the distribution and density of sales by product category. Refer to the Seaborn documentation for guidance.
+- **Box Plot:** Explore and create a box plot to compare sales distributions between different product categories. Use the Seaborn documentation as a resource.
+- **Cat Plot:** Research and create a cat plot to analyze sales in different regions. Consult the Seaborn documentation for help.
 
 ## How to Submit
 
