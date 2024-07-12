@@ -140,9 +140,10 @@ The dataset provided for this lab is available at the following link: [Retail Sa
 
 ## Additional Resources
 
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html).
+- [Seaborn Documentation](https://seaborn.pydata.org/).
 - [Python Graph Gallery](https://www.python-graph-gallery.com/) for inspiration and code snippets.
-- [Plotly Documentation]([https://matplotlib.org/stable/contents.html](https://plotly.com/python/))
+- [Plotly Documentation]([https://matplotlib.org/stable/contents.html](https://plotly.com/python/)).
+
 
 ![happy_coding](https://user-images.githubusercontent.com/970858/63899010-c23fc480-c9ea-11e9-84a2-542907e42362.png)
