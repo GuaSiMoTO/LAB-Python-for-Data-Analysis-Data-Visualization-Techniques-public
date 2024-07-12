@@ -134,10 +134,6 @@ In this final iteration, you will synthesize your visualizations to gain compreh
 
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
 
-## Dataset
-
-The dataset provided for this lab is available at the following link: [Retail Sales Dataset](sandbox:/mnt/data/retail_sales_dataset.csv) (please make sure to load the file into your working environment).
-
 ## Additional Resources
 
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html).
