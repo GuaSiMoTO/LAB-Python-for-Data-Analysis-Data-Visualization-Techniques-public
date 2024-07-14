@@ -132,9 +132,17 @@ In this final iteration, you will synthesize your visualizations to gain compreh
 - **Box Plot:** Explore and create a box plot to compare sales distributions between different product categories. Use the Seaborn documentation as a resource.
 - **Cat Plot:** Research and create a cat plot to analyze sales in different regions. Consult the Seaborn documentation for help.
 
-## How to Submit
-
+## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
+Run the following commands:
+
+```
+$ git add .
+$ git commit -m "done"
+$ git push origin main
+```
+
+Then create a Pull Request!!
 
 ## Additional Resources
 
