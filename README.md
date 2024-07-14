@@ -15,6 +15,14 @@ Start by forking the provided GitHub repository to your account and then clone i
 
 Imagine you are a junior data analyst at a retail company. Your manager has asked you to analyze the sales trends for various products over the year to inform upcoming marketing strategies. Your task is to visualize this data, identifying seasonal trends, product popularity, and potential opportunities for sales campaigns.
 
+## Iteration 0: Install Dependencies
+
+Make sure you have all the necessary libraries installed by using the `requirements.txt` file provided. You can install the dependencies with the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Iteration 1: Plotting with Matplotlib
 
 In this iteration, you will learn to use Matplotlib, a data visualization library in Python, to create basic but informative charts. We will start by loading and understanding the dataset structure, followed by creating various types of charts to visualize monthly sales, sales trends over time, and the relationship between sales and discounts.
