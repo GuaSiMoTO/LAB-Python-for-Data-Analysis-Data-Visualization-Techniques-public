@@ -19,26 +19,23 @@ Imagine you are a junior data analyst at a retail company. Your manager has aske
 
 In this iteration, you will learn to use Matplotlib, a data visualization library in Python, to create basic but informative charts. We will start by loading and understanding the dataset structure, followed by creating various types of charts to visualize monthly sales, sales trends over time, and the relationship between sales and discounts.
 
-1. Load the dataset (focus on sales data).
-   - **Instruction:** Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
+1. Load the dataset.
+   - Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
 
 #### Visualize Monthly Sales
 
-2. Use Matplotlib to plot a bar chart showing sales per month.
-   - **Instruction:** Create a bar chart where the X-axis represents the months of the year and the Y-axis represents the total sales for each month.
+2. Create a bar chart where the X-axis represents the months of the year and the Y-axis represents the total sales for each month.
 
 3. Customize your plot with labels and a title to improve readability.
-   - **Instruction:** Add a title, axis labels, and customize the colors of the bars.
+   - Add a title, axis labels, and customize the colors of the bars.
 
 #### Analyze Sales Trends
 
-4. Create a line plot to show the sales trend over time.
-   - **Instruction:** Create a line plot with total sales per month to identify trends over the year.
+4. Create a line plot with total sales per month to identify trends over the year.
 
 #### Explore Sales and Discounts Relationship
 
-5. Create a scatter plot to analyze the relationship between sales and discounts.
-   - **Instruction:** Create a scatter plot where the X-axis represents discounts and the Y-axis represents sales.
+5. Create a scatter plot where the X-axis represents discounts and the Y-axis represents sales.
 
 ## Iteration 2: Plotting with Seaborn
 
@@ -46,23 +43,19 @@ In this iteration, you will leverage Seaborn, a statistical data visualization l
 
 #### Correlation Heatmap
 
-1. Generate a heatmap to visualize sales data correlations.
-   - **Instruction:** Create a heatmap showing correlations between different numerical variables in the dataset.
+1. Create a heatmap showing correlations between different numerical variables in the dataset.
 
 #### Product Category Analysis
 
-2. Create a pair plot to explore relationships between continuous variables in different product categories.
-   - **Instruction:** Generate a pair plot including variables such as sales, discounts, and other relevant factors to analyze possible relationships within product categories.
+2. Generate a pair plot including variables such as sales, discounts, and other relevant factors to analyze possible relationships within product categories.
 
 #### Sales Distribution by Category
 
-3. Create histograms to compare sales distributions between different product categories.
-   - **Instruction:** Create histograms comparing sales across different product categories.
+3. Create histograms comparing sales across different product categories.
 
 #### Regional Sales Analysis
 
-4. Create a bar plot to analyze sales in different regions.
-   - **Instruction:** Create a bar plot showing sales across different geographical regions.
+4. Create a bar plot showing sales across different geographical regions.
 
 ## Iteration 3: Customizing Plots for Insights
 
@@ -71,12 +64,11 @@ In this iteration, you will learn how to enhance your visualizations by adding a
 #### Enhance Visualizations
 
 1. Enhance your plots from previous iterations by adding annotations, using color maps, and adjusting axes properties for clarity and visual appeal.
-   - **Instruction:** Add annotations to bar charts and heatmaps to highlight important points. Adjust axis limits and experiment with different color maps.
+   - Add annotations to bar charts and heatmaps to highlight important points. Adjust axis limits and experiment with different color maps.
 
 #### Presentation-Ready Figures
 
-2. Experiment with Seaborn’s styles and color palettes to prepare presentation-ready figures.
-   - **Instruction:** Apply different Seaborn styles and color palettes to the created plots to improve visual presentation.
+2. Apply different Seaborn styles and color palettes to the created plots to improve visual presentation.
 
 ## Iteration 4: Comprehensive Business Insights
 
@@ -85,44 +77,43 @@ In this final iteration, you will synthesize your visualizations to gain compreh
 #### Seasonal Sales Trends
 
 1. Create a line chart to show seasonal sales trends.
-   - **Instruction:** Analyze how sales fluctuate over the months and identify any seasonal patterns.
+   - Analyze how sales fluctuate over the months and identify any seasonal patterns.
 
 #### Product Category Performance
 
 2. Create a bar chart to compare the performance of different product categories over time.
-   - **Instruction:** Evaluate which product categories perform best during different times of the year.
+   - Evaluate which product categories perform best during different times of the year.
 
 #### Impact of Promotions
 
 3. Create a scatter plot to analyze the impact of promotions on sales.
-   - **Instruction:** Determine how promotional activities affect sales numbers.
+   - Determine how promotional activities affect sales numbers.
 
 #### Sales Distribution Over Time
 
 4. Create a histogram to show the distribution of sales over time.
-   - **Instruction:** Visualize how sales are distributed across months to see overall sales performance.
+   - Visualize how sales are distributed across months to see overall sales performance.
 
 #### Variability in Sales
 
 5. Create a pair plot to visualize the relationships and variability of sales within each product category.
-   - **Instruction:** Show the relationships and dispersion of sales by product category to understand sales variability.
+   - Show the relationships and dispersion of sales by product category to understand sales variability.
 
 #### Summarize Findings
 
 6. Summarize your findings with visual aids and present them as if to a stakeholder.
-   - **Instruction:** Prepare a presentation with the created visualizations, including a narrative explaining the most important findings.
 
 ## Bonus Challenge
 
 ### Interactive Visualizations
 
 1. Integrate interactive elements into your visualizations using Plotly.
-   - **Instruction:** Convert one of the existing plots into an interactive visualization using Plotly.
+   - Convert one of the existing plots into an interactive visualization using Plotly.
 
 ### Dashboard Layout
 
 2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
-   - **Instruction:** Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
+   - Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
 
 ### Advanced Seaborn Visualizations
 
