@@ -10,7 +10,10 @@ Hello everyone! In this session, we will explore the use of pandas, Matplotlib, 
 
 ### Fork and Clone the Repository
 Start by forking the provided GitHub repository to your account and then clone it locally. This will be your workspace for completing the lab exercises.
+## Requirements
 
+- [Learn how to fork this repo](https://guides.github.com/activities/forking/)
+- Clone this repo into your `code/labs` folder
 ## Scenario
 
 Imagine you are a junior data analyst at a retail company. Your manager has asked you to analyze the sales trends for various products over the year to inform upcoming marketing strategies. Your task is to visualize this data, identifying seasonal trends, product popularity, and potential opportunities for sales campaigns.
