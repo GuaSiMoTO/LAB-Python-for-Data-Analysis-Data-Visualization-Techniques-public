@@ -8,15 +8,37 @@ Hello everyone! In this session, we will explore the use of pandas, Matplotlib, 
 
 ## Initial Setup
 
-### Fork and Clone the Repository
-Start by forking the provided GitHub repository to your account and then clone it locally. This will be your workspace for completing the lab exercises.
 ## Requirements
-
+Start by forking the provided GitHub repository to your account and then clone it locally. This will be your workspace for completing the lab exercises.
 - [Learn how to fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `code/labs` folder
+
 ## Scenario
 
 Imagine you are a junior data analyst at a retail company. Your manager has asked you to analyze the sales trends for various products over the year to inform upcoming marketing strategies. Your task is to visualize this data, identifying seasonal trends, product popularity, and potential opportunities for sales campaigns.
+## Starter Code
+
+You have to solve the different problems in the `LAB-Data-Visualization.ipynb` notebook.
+
+To get started, follow these steps:
+
+1. Open your terminal and navigate to the `cloned-repo` directory:
+
+    ```bash
+    cd path/to/your/cloned-repo/
+    ```
+
+2. Launch Jupyter Notebook:
+
+    ```bash
+    jupyter lab
+    ```
+
+3. In the Jupyter Notebook interface, open the `lab.ipynb` file.
+
+To test that everything is set up correctly, run the first cell in the notebook. This cell usually contains import statements and initial setup code. If it runs without errors, you are ready to start solving the exercises.
+
+You can write and execute your code in the provided cells within the notebook. Any outputs, including print statements and visualizations, will be displayed directly in the notebook, making it easy to debug and verify your solutions.
 
 ## Iteration 0: Install Dependencies
 
