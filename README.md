@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Data Visualization Techniques lab! In this session, you will enhance your proficiency with pandas, Matplotlib, and Seaborn. Effective data visualization is not just about creating attractive charts; it's about narrating the story behind the data and uncovering actionable insights. This lab will empower you with the skills to craft compelling visual representations of datasets.
+Hello everyone! In this session, we will explore the use of pandas, Matplotlib, and Seaborn to enhance your data visualization skills. This includes learning how to create visually appealing charts and graphs, narrate the story behind your data, and uncover actionable insights from it. Imagine you are part of a small team at a company, and you need to visually represent and analyze the team's data using Python. This lab will empower you with the techniques to craft compelling visual representations of datasets, making you more effective in your data handling roles.
 
 ## Initial Setup
 
