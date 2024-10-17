@@ -88,6 +88,8 @@ This will help to identify peaks and dips in sales over the year.
 
 - Use a **heatmap** to visualize correlations between the numerical variables in the dataset (e.g., **Sales** and **Discount**).
 
+> **Note:** When working with datasets that contain both numerical and categorical data, it's important to select only the numerical columns before calculating the correlation matrix. In Python's `pandas`, we can use the method `select_dtypes(include=[float, int])` to filter out only the columns with numeric data types, such as integers and floats.
+
 This will help detect important relationships between the variables.
 
 ### 2.2 Histogram: Sales Distribution by Product Category
