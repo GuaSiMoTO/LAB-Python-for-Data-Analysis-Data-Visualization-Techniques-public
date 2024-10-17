@@ -52,85 +52,93 @@ pip install -r requirements.txt
 
 In this iteration, you will learn to use Matplotlib, a data visualization library in Python, to create basic but informative charts. We will start by loading and understanding the dataset structure, followed by creating various types of charts to visualize monthly sales, sales trends over time, and the relationship between sales and discounts.
 
-1. Load the dataset.
-   - Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
+#### Dataset Description
 
-#### Visualize Monthly Sales
+The dataset includes the following columns:
 
-2. Create a bar chart where the X-axis represents the months of the year and the Y-axis represents the total sales for each month.
+- Date: The date of the sale.
+- Product Category: The category of the product (Electronics, Clothing, etc.).
+- Sales: The total monetary value generated from the sale.
+- Discount: The percentage discount applied.
+- Region: The region where the sale occurred (North, South, East, West).
+- Promotion: Indicates whether the sale was part of a promotion ("Yes" or "No").
 
-3. Customize your plot with labels and a title to improve readability.
-   - Add a title, axis labels, and customize the colors of the bars.
+### 1.1 Bar Plot: Monthly Sales
 
-#### Analyze Sales Trends
+- Load the dataset and create a **bar plot** to visualize the **total sales per month**.
+- Add annotations to show the exact sales value on top of each bar.
 
-4. Create a line plot with total sales per month to identify trends over the year.
+This plot will help identify sales patterns over the year.
 
-#### Explore Sales and Discounts Relationship
+### 1.2 Line Plot: Seasonal Sales Trends
 
-5. Create a scatter plot where the X-axis represents discounts and the Y-axis represents sales.
+- Using the monthly sales from the previous bar plot, create a **line plot** to visualize **seasonal sales trends**.
 
-## Iteration 2: Plotting with Seaborn
+This will help to identify peaks and dips in sales over the year.
 
-In this iteration, you will leverage Seaborn, a statistical data visualization library in Python, to create more advanced plots. We will create a correlation heatmap, pair plots to explore relationships between variables, histograms to compare sales distributions, and bar plots for regional sales analysis.
+### 1.3 Scatter Plot: Relationship Between Discounts and Sales
 
-#### Correlation Heatmap
+- Create a **scatter plot** to explore the relationship between the **discount percentage** and the **sales value**.
 
-1. Create a heatmap showing correlations between different numerical variables in the dataset.
+---
 
-#### Product Category Analysis
+## Iteration 2: Advanced Analysis with Seaborn
 
-2. Generate a pair plot including variables such as sales, discounts, and other relevant factors to analyze possible relationships within product categories.
+### 2.1 Heatmap: Correlations Between Variables
 
-#### Sales Distribution by Category
+- Use a **heatmap** to visualize correlations between the numerical variables in the dataset (e.g., **Sales** and **Discount**).
 
-3. Create histograms comparing sales across different product categories.
+This will help detect important relationships between the variables.
 
-#### Regional Sales Analysis
+### 2.2 Histogram: Sales Distribution by Product Category
 
-4. Create a bar plot showing sales across different geographical regions.
+- Create a **histogram** to compare the **sales distribution** across different **product categories**.
 
-## Iteration 3: Customizing Plots for Insights
+This will reveal which categories generate the most revenue and how sales are distributed within each category.
 
-In this iteration, you will learn how to enhance your visualizations by adding annotations, using color maps, and adjusting axes properties to improve clarity and visual appeal. You will also experiment with Seaborn’s styles and color palettes to prepare presentation-ready figures.
+### 2.3 Bar Plot: Sales by Region
 
-#### Enhance Visualizations
+- Create a **bar plot** to show **total sales by region**.
 
-1. Enhance your plots from previous iterations by adding annotations, using color maps, and adjusting axes properties for clarity and visual appeal.
-   - Add annotations to bar charts and heatmaps to highlight important points. Adjust axis limits and experiment with different color maps.
+This will help identify which regions are driving the most sales and compare performance between regions.
 
-#### Presentation-Ready Figures
+---
 
-2. Apply different Seaborn styles and color palettes to the created plots to improve visual presentation.
+## Iteration 3: Customizing Visualizations for Presentation
 
-## Iteration 4: Comprehensive Business Insights
+### 3.1 Enhance Visualizations
 
-In this final iteration, you will synthesize your visualizations to gain comprehensive business insights. You will analyze seasonal sales trends, compare product category performance, evaluate the impact of promotions, and visualize sales distribution and variability over time. Finally, you will summarize your findings and prepare a presentation for stakeholders.
+- **Monthly Sales Bar Plot**: Customize the monthly sales bar plot from **Iteration 1.1** by adding annotations and adjusting the visual style for a more presentable appearance.
 
-#### Seasonal Sales Trends
+### 3.2 Apply Seaborn Styles
 
-1. Create a line chart to show seasonal sales trends.
-   - Analyze how sales fluctuate over the months and identify any seasonal patterns.
+- Experiment with different Seaborn styles (such as `'darkgrid'`, `'whitegrid'`, etc.) to improve the appearance of the plots created in **Iterations 1 and 2**.
 
-#### Product Category Performance
+---
 
-2. Create a bar chart to compare the performance of different product categories over time.
-   - Evaluate which product categories perform best during different times of the year.
+## Iteration 4: Business Insights and Conclusions
 
-#### Impact of Promotions
+### 4.1 Seasonal Sales Trends
 
-3. Create a scatter plot to analyze the impact of promotions on sales.
-   - Determine how promotional activities affect sales numbers.
+- Use the **line plot** from **Iteration 1.2** to identify sales peaks in specific months and analyze any **seasonal patterns**.
 
-#### Sales Distribution Over Time
+### 4.2 Product Category Performance
 
-4. Create a histogram to show the distribution of sales over time.
-   - Visualize how sales are distributed across months to see overall sales performance.
+- Use the **histogram of sales by category** from **Iteration 2.2** to identify which product categories perform best throughout the year.
 
-#### Variability in Sales
+### 4.3 Impact of Promotions
 
-5. Create a pair plot to visualize the relationships and variability of sales within each product category.
-   - Show the relationships and dispersion of sales by product category to understand sales variability.
+- Create a **scatter plot** to show the **impact of promotions** on sales, distinguishing between sales with and without promotions.
+
+This plot will help explore whether promotions have a significant effect on boosting sales.
+
+### 4.4 Sales Distribution Over Time
+
+- Use the **monthly sales bar plot** from **Iteration 1.1** to analyze the **distribution of sales** over time.
+
+### 4.5 Sales Variability by Product Category
+
+- Use a **scatter plot** or **box plot** to visualize the **variability of sales by product category**. This will help understand which categories have more stable or fluctuating sales.
 
 #### Summarize Findings
 
