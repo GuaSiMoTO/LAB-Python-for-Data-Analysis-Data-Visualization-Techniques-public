@@ -140,7 +140,9 @@ This plot will help explore whether promotions have a significant effect on boos
 
 ### 4.5 Sales Variability by Product Category
 
-- Use a **scatter plot** or **box plot** to visualize the **variability of sales by product category**. This will help understand which categories have more stable or fluctuating sales.
+- Use a **box plot** to visualize the **variability of sales by product category**. This will help understand which categories have more stable or fluctuating sales.
+
+> **Hint**: [Box Plot Documentation](https://seaborn.pydata.org/generated/seaborn.boxplot.html)
 
 #### Summarize Findings
 
