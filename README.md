@@ -144,10 +144,6 @@ This plot will help explore whether promotions have a significant effect on boos
 
 > **Hint**: [Box Plot Documentation](https://seaborn.pydata.org/generated/seaborn.boxplot.html)
 
-#### Summarize Findings
-
-6. Summarize your findings with visual aids and present them as if to a stakeholder.
-
 ## Bonus Challenge
 
 ### Interactive Visualizations
