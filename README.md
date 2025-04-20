@@ -92,11 +92,11 @@ This will help to identify peaks and dips in sales over the year.
 
 This will help detect important relationships between the variables.
 
-### 2.2 Histogram: Sales Distribution by Product Category
+2.2 Histogram: Sales Distribution by Product Category 
 
-- Create a **histogram** to compare the **sales distribution** across different **product categories**.
+Create a facet-based histogram using `FacetGrid` to visualize the sales distribution separately for each product category.
 
-This will reveal which categories generate the most revenue and how sales are distributed within each category.
+This approach allows you to clearly observe the shape and spread of sales values within each category, making it easier to identify which categories have higher concentration of sales, outliers, or greater variability.
 
 ### 2.3 Bar Plot: Sales by Region
 
@@ -120,29 +120,48 @@ This will help identify which regions are driving the most sales and compare per
 
 ## Iteration 4: Business Insights and Conclusions
 
+In this section, analyze the visualizations you've already created in previous iterations to draw key business insights. Focus on interpreting the charts, not recreating them.
+
 ### 4.1 Seasonal Sales Trends
 
-- Use the **line plot** from **Iteration 1.2** to identify sales peaks in specific months and analyze any **seasonal patterns**.
+Based on the **line plot** from Iteration 1.2:
+
+- Which months show the highest sales volume?
+- Are there any recurring seasonal patterns or trends?
+- How could these trends influence future marketing campaigns?
 
 ### 4.2 Product Category Performance
 
-- Use the **histogram of sales by category** from **Iteration 2.2** to identify which product categories perform best throughout the year.
+Using the **sales distribution histogram** from Iteration 2.2 (e.g., FacetGrid):
+
+- Which product categories tend to generate the most high-value sales?
+- Which category has the most consistent distribution of sales?
+- Is there a category that underperforms compared to the others?
 
 ### 4.3 Impact of Promotions
 
-- Create a **scatter plot** to show the **impact of promotions** on sales, distinguishing between sales with and without promotions.
+Refer to the **scatter plot** comparing sales with and without promotions:
 
-This plot will help explore whether promotions have a significant effect on boosting sales.
+- Do promotions appear to increase sales?
+- What is the relationship between discount percentage and sales value?
+- Are there noticeable differences between promoted and non-promoted sales?
 
 ### 4.4 Sales Distribution Over Time
 
-- Use the **monthly sales bar plot** from **Iteration 1.1** to analyze the **distribution of sales** over time.
+Using the **monthly sales bar plot** from Iteration 1.1:
+
+- How are sales distributed throughout the year?
+- Are there specific months with significantly higher or lower sales?
+- Which periods might need additional marketing or support?
 
 ### 4.5 Sales Variability by Product Category
 
-- Use a **box plot** to visualize the **variability of sales by product category**. This will help understand which categories have more stable or fluctuating sales.
+Refer to the **box plot** you created:
 
-> **Hint**: [Box Plot Documentation](https://seaborn.pydata.org/generated/seaborn.boxplot.html)
+- Which product categories show the most stable sales?
+- Which ones have the greatest variability or outliers?
+- What insights can you draw about risk or predictability from this?
+
 
 ## Bonus Challenge
 
