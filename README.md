@@ -66,18 +66,14 @@ The dataset includes the following columns:
 ### 1.1 Bar Plot: Monthly Sales
 
 - Load the dataset and create a **bar plot** to visualize the **total sales per month**.
-- Add annotations to show the exact sales value on top of each bar.
-
-This plot will help identify sales patterns over the year.
-
 > ⚠️ **Important preprocessing step before starting Iteration 1.1**
 > 
 > Before creating any monthly visualizations, make sure to extract the month from the `Date` column.
 > 
 > Then, for Iteration 1.1 and 1.2, you must group the data by month to properly summarize total sales and identify trends.
+- Add annotations to show the exact sales value on top of each bar.
 
-
-
+This plot will help identify sales patterns over the year.
 
 
 ### 1.2 Line Plot: Seasonal Sales Trends
