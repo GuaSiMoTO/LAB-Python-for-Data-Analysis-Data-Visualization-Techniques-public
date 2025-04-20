@@ -71,7 +71,12 @@ The dataset includes the following columns:
 This plot will help identify sales patterns over the year.
 
 > ⚠️ **Important preprocessing step before starting Iteration 1.1**
+> 
 > Before creating any monthly visualizations, make sure to extract the month from the `Date` column.
+> 
+> Then, for Iteration 1.1 and 1.2, you must group the data by month to properly summarize total sales and identify trends.
+
+
 
 
 
