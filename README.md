@@ -92,7 +92,7 @@ This will help to identify peaks and dips in sales over the year.
 
 This will help detect important relationships between the variables.
 
-2.2 Histogram: Sales Distribution by Product Category 
+### 2.2 Histogram: Sales Distribution by Product Category 
 
 Create a facet-based histogram using `FacetGrid` to visualize the sales distribution separately for each product category.
 
