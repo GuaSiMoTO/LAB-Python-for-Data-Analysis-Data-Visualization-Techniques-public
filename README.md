@@ -174,13 +174,7 @@ Refer to the **box plot** you created:
 
 2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
    - Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
-
-### Advanced Seaborn Visualizations
-
-- **Violin Plot:** Investigate and create a violin plot to visualize the distribution and density of sales by product category. Refer to the Seaborn documentation for guidance.
-- **Box Plot:** Explore and create a box plot to compare sales distributions between different product categories. Use the Seaborn documentation as a resource.
-- **Cat Plot:** Research and create a cat plot to analyze sales in different regions. Consult the Seaborn documentation for help.
-
+  
 ## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
 Run the following commands:
