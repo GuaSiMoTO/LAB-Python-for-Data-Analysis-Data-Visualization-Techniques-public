@@ -70,6 +70,12 @@ The dataset includes the following columns:
 
 This plot will help identify sales patterns over the year.
 
+> ⚠️ **Important preprocessing step before starting Iteration 1.1**
+
+Before creating any monthly visualizations, make sure to extract the month from the `Date` column.
+
+
+
 ### 1.2 Line Plot: Seasonal Sales Trends
 
 - Using the monthly sales from the previous bar plot, create a **line plot** to visualize **seasonal sales trends**.
