@@ -177,8 +177,8 @@ Refer to the **box plot** you created:
 
 ### Dashboard Layout
 
-2. Explore and implement subplots to create a dashboard-like layout of multiple plots.
-   - Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization.
+2. Explore and implement subplots to create a dashboard-like layout of multiple plots using Streamlit.
+   - Create a dashboard layout with multiple subplots to show different aspects of the sales data in a single visualization using Streamlit.
   
 ## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
